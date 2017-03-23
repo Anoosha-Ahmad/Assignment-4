@@ -5,7 +5,6 @@ import java.util.Scanner;
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author ahmaa1808
@@ -29,16 +28,16 @@ public class A4Q3 {
         //asking user to input second number and scanning the number
         System.out.println("Please enter your third number");
         Double number3 = input.nextDouble();
-         //asking user to input second number and scanning the number
+        //asking user to input second number and scanning the number
         System.out.println("Please enter your fourth number");
         Double number4 = input.nextDouble();
-        
-        
-        
+
+
+
         //output of the numbers inputed by uses
-         System.out.println("Your numbers were "  +  number1 + ", "  +   number2 + ", " +   number3 + ", " + "and " +   number4);
-        
-         
-                        
+        System.out.println("Your numbers were " + number1 + ", " + number2 + ", " + number3 + ", " + "and " + number4);
+
+
+
     }
 }
