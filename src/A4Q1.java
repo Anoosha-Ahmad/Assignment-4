@@ -28,8 +28,5 @@ public class A4Q1 {
         //saying "hello" to the user
         System.out.println("Hello " + name + ". How are you today?");
 
-
-
-
     }
 }

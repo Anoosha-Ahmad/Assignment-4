@@ -25,7 +25,7 @@ public class A4Q5 {
         // scanning in their name to a variable
         String name = input.nextLine();
 
-        //asking user  to input their test marks and totals
+        //asking user to input what the test was out of and their mark
         System.out.println("What was the first test out of?");
         Double total1 = input.nextDouble();
         System.out.println("What mark did you get?");
@@ -51,30 +51,25 @@ public class A4Q5 {
         System.out.println("What mark did you get?");
         Double mark5 = input.nextDouble();
 
-        // calculate the percentage of each test
+        // calculate their mark in percent of each test
         Double percentage1 = ((mark1 / total1) * 100);
         Double percentage2 = ((mark2 / total2) * 100);
         Double percentage3 = ((mark3 / total3) * 100);
         Double percentage4 = ((mark4 / total4) * 100);
         Double percentage5 = ((mark5 / total5) * 100);
-        // output the percenatges for each test
+
+        // output the marks in percents for each test
         System.out.println("Test 1: " + percentage1 + "%");
         System.out.println("Test 2: " + percentage2 + "%");
         System.out.println("Test 3: " + percentage3 + "%");
         System.out.println("Test 4: " + percentage4 + "%");
         System.out.println("Test 5: " + percentage5 + "%");
 
-        // calculate average
+        // calculate the total average of the percents 
         Double average = ((percentage1 + percentage2 + percentage3 + percentage4 + percentage5) / 5);
 
         // output total average
         System.out.println("Average:" + average + "%");
-
-
-
-
-
-
 
     }
 }

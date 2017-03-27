@@ -31,6 +31,5 @@ public class A4Q2 {
         // output of the calculation of the conversion 
         System.out.println(number + " inches is the same as " + answer + " cm");
 
-
     }
 }

@@ -23,39 +23,34 @@ public class A4Q6 {
         System.out.println("Enter the speed limit");
         Double limit = input.nextDouble();
 
-        //asking user to imput their speed
+        //asking user to input their speed
         System.out.println("Enter the recorded speed of the car");
         Double speed = input.nextDouble();
         Double speeding = (speed - limit);
 
-
-
-
-        while (speed < limit) {
+        // if their speed was less than the limit
+        while (speed <= limit) {
+            //output "congratulations"
             System.out.println("Congratulations, you are within the speed limit!");
             break;
-
-
         }
+
+        // if their speed was more than the limit
         while (speed > limit) {
+            // calculate how much fast they drove past the speed limit (calculating the difference)
             double over = (speed - limit);
 
-            if (over < 20) {
+            if (over <= 20) {
                 System.out.println("You are speeding and your fine is $100");
             }
-            if (over > 21 && over < 31) {
+            if (over >= 21 && over <= 30) {
                 System.out.println("You are speeding and your fine is $270");
             }
-            if (over > 31) {
+            if (over >= 31) {
                 System.out.println("You are speeding and your fine is $500");
             }
 
             break;
-
-
-
-
-
 
         }
 

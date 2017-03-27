@@ -93,9 +93,11 @@ public class A4Q8 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        
+        // scan user input
         String name = Nameinput.getText();
         
-        //outputs text into a text box named "output"
+        //output text into a text box named "output"
         Output.setText("Hello " + name);
     }//GEN-LAST:event_jButton1ActionPerformed
 

@@ -35,7 +35,7 @@ public class A4Q4 {
         System.out.println("How much does it cost for staff?");
         Double staff = input.nextDouble();
 
-        System.out.println("How much for miscellaneous?");
+        System.out.println("How much for miscellaneous costs?");
         Double miscellaneous = input.nextDouble();
 
         //calculate total cost of expenses
@@ -44,14 +44,11 @@ public class A4Q4 {
         // calculate total nummber of tickets to be sold to break even
         Double tickets = (cost / 35);
 
-        //rounding the 
+        //rounding the number
         tickets = Math.ceil(tickets);
 
-
+        //output the total cost and the number of tickets that need to be sold to break even
         System.out.println("The total cost is $ " + cost + ". You will need to sell " + tickets + " tickets to break even");
-
-
-
 
     }
 }

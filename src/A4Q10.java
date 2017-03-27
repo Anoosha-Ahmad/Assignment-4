@@ -104,10 +104,8 @@ public class A4Q10 extends javax.swing.JFrame {
 
     private void farenheitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_farenheitActionPerformed
         // TODO add your handling code here:
-        
-                
-                
-        
+
+
     }//GEN-LAST:event_farenheitActionPerformed
 
     private void celsiusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_celsiusActionPerformed
@@ -116,38 +114,35 @@ public class A4Q10 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        //
+        // scan user's farenheit input
         String number1 = farenheit.getText();
-        
-        
+
+        // converting the string to an integer
         int num1 = Integer.parseInt(number1);
-        
-        
-        //calculate the number
-        int answerC = ((num1 - 32)*5/9);
-        
+
+        //calculation for the conversion for farenheit to celsius
+        int answerC = ((num1 - 32) * 5 / 9);
+
+        //output the answer in celsius to the user
         celsius.setText("" + answerC);
-        
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-         String number2 = celsius.getText();
-         
-         
-        
+        // scan user's celsius input
+        String number2 = celsius.getText();
+
+        // converting the string to an integer
         int num2 = Integer.parseInt(number2);
-        
-        
-        //calculate the number
-        int answerF = ((num2 * 9/5) + 32);
-        
+
+        //calculation for the conversion for celsius to farenheight
+        int answerF = ((num2 * 9 / 5) + 32);
+
+        //output the answer in farenheit to the user
         farenheit.setText("" + answerF);
-        
-        
-        
-        
-        
+
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

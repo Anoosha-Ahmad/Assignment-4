@@ -154,31 +154,37 @@ public class A4Q9 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        
         //add the first and second number
         String number1 = Numberinput1.getText();
         String number2 = Numberinput2.getText();
-        // changes the string to a number
+        
+        // change the string to a number
         int num1 = Integer.parseInt(number1);
         int num2 = Integer.parseInt(number2);
 
         // calculate the number
         int answer = (num1 + num2);
 
+        //output answer
         Output.setText("" + answer);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+        
         //multiply the first and second number
         String number1 = Numberinput1.getText();
         String number2 = Numberinput2.getText();
-        // changes the string to a number
+        
+        // change the string to a number
         int num1 = Integer.parseInt(number1);
         int num2 = Integer.parseInt(number2);
 
         // calculate the number
         int answer = (num1 * num2);
 
+        //output the number
         Output.setText("" + answer);
     }//GEN-LAST:event_jButton3ActionPerformed
 
@@ -188,26 +194,30 @@ public class A4Q9 extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        
         //subtract the first and second number
         String number1 = Numberinput1.getText();
         String number2 = Numberinput2.getText();
-        // changes the string to a number
+        
+        // change the string to a number
         int num1 = Integer.parseInt(number1);
         int num2 = Integer.parseInt(number2);
 
         // calculate the number
         int answer = (num1 - num2);
 
+        //output the number
         Output.setText("" + answer);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
+        
         //divide the first and second number
         String number1 = Numberinput1.getText();
         String number2 = Numberinput2.getText();
         
-        // changes the string to a number
+        // change the string to a number
         int num1 = Integer.parseInt(number1);
         int num2 = Integer.parseInt(number2);
 
