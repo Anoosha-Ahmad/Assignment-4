@@ -24,10 +24,16 @@ public class A4Q7 {
         double total = 1;
 
         //loop
-        while (total <= 100) {
+        while (total < 100) {
             // ask user to input their sum of the dice
             System.out.println("Enter sum of dice");
             Double sum = input.nextDouble();
+
+            //if sum is zero
+            if (sum == 0) {
+                System.out.println("You Quit!");
+
+            }
 
             // calculations for the square the user will land on for every turn   
             total = sum + total;
@@ -69,7 +75,6 @@ public class A4Q7 {
             // when user lands on square 100, end game
             if (total == 100) {
                 System.out.println("You are now on square 100. You win!");
-
             }
         }
     }
